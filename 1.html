@@ -1,9 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <div style="width: 200px;height: 100px;background-color:red ">
-        <div style="margin-left: 200px;width: 200px;height: 100px;background-color:blue;"></div>
-        <div style="width: 400px;height: 100px;background-color:forestgreen ">  
-    </body>
-    
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login Form</h1>
+
+        <label for="uname">Username</label>
+        <br>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <br>
+        <label for="psw">Password</label>
+        <br>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <br>
+        <button type="button">Login</button>
+        <br>
+        <label for="check"><input type="checkbox" checked="checked" name="remember"> Remember Me
+        </label>
+        <br>
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+
+
+
+</body>
+
 </html>
