@@ -3,6 +3,15 @@ body {
     background-image: url("autum.png");
     background-size: cover;
     padding-left: 40%;
+
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        padding-left: 0%;
+        background-attachment: fixed;
+
+    }
 }
 
 form {
