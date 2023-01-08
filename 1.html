@@ -7,7 +7,8 @@
 </head>
 
 <body>
-    <div class="container">
+    <form action="log.php" method="post>
+    <div class=" container">
         <h1>Login Form</h1>
 
         <label for="uname">Username</label>
@@ -20,16 +21,16 @@
         <br>
         <button type="button">Login</button>
         <br>
-        <label for="check"><input type="checkbox" checked="checked" name="remember"> Remember Me
-        </label>
-        <br>
-        <button type="button" class="cancelbtn">Cancel</button>
+        <label for="check" class="check"><input type="checkbox" name="remember">Remember Me</label>
+        <p></p>
+        <button type="reset" class="cancelbtn">Cancel</button>
         <span class="psw">Forgot <a href="#">password?</a></span>
-        <br>
-        <label for="member">Not a Member ?<a href="#">Signup Now</a>
-        </label>
-    </div>
-
+        <p>
+            <label for="member">Not a Member ?<a href="#">Signup Now</a>
+            </label>
+        </p>
+        </div>
+    </form>
 
 
 </body>

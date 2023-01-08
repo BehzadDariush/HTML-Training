@@ -1,13 +1,17 @@
 body {
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 
 form {
     border: 3px solid #f1f1f1;
     background-color: orange;
-    width: 100px;
-    height: 50px;
+    height: 450px;
+    width: 250px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 
 }
 
@@ -19,12 +23,12 @@ h1 {
 button {
     background-color: #04AA6D;
     color: rgb(255, 255, 255);
-    padding: 14px 6px;
+    padding: 10px 6px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 200px;
-    text-align: center;
+    width: fit-content;
+    text-align: left;
 
 }
 
@@ -35,26 +39,29 @@ button:hover {
 }
 
 
+p {
+    padding: 10px;
+}
+
+
 input {
-    width: 50%;
-    padding: 10px 100px;
+    padding: 10px 10px;
     margin: 8px 0;
-    display: inline-block;
     border: 1px solid #ccc;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .cancelbtn {
     width: auto;
     padding: 10px 18px;
     background-color: #f44336;
-    width: 20%;
+    width: fit-content;
 }
 
 .container {
     padding: 20px;
-    background-color: #b66767;
-
+    /* background-color: #b66767;
+*/
 
 }
 
@@ -66,4 +73,12 @@ span {
 
 label {
     font-weight: bold;
+
+}
+
+.check {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-right: 0;
 }
