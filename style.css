@@ -1,17 +1,21 @@
 body {
 
-    font-family: Arial;
+    background-image: url("autum.png");
+    background-size: cover;
+    padding-left: 40%;
 }
 
 form {
-    border: 3px solid #f1f1f1;
-    background-color: orange;
+    /*   border: 3px solid #f1f1f1;*/
     height: 450px;
-    width: 250px;
+    width: 350px;
     display: flexbox;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
+    background: url("https://www.w3schools.com/css/img_tree.png") orange no-repeat 100% 20%;
+
+
 
 }
 
